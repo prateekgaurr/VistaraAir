@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.prateek.vistaraair.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_tv"
+        android:name="com.prateek.vistaraair.ui.tv.TVFragment"
+        android:label="@string/menu_tv"
+        tools:layout="@layout/fragment_tv" />
+
+    <fragment
+        android:id="@+id/nav_movies"
+        android:name="com.prateek.vistaraair.ui.movies.MoviesFragment"
+        android:label="@string/menu_movies"
+        tools:layout="@layout/fragment_movies" />
+
+
+    <fragment
+        android:id="@+id/nav_kids"
+        android:name="com.prateek.vistaraair.ui.kids.KidsFragment"
+        android:label="@string/menu_kids"
+        tools:layout="@layout/fragment_kids" />
+
+
+    <fragment
+        android:id="@+id/nav_audio"
+        android:name="com.prateek.vistaraair.ui.audio.AudioFragment"
+        android:label="@string/menu_audio"
+        tools:layout="@layout/fragment_audio" />
+
+
+</navigation>
